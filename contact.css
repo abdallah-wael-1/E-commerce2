@@ -1,0 +1,135 @@
+/* Resetting default padding, margin, and box-sizing for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* بدل height: 100vh عشان الصفحة تكبر لو المحتوى زاد */
+    background-image: url('./background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Form style */
+.form-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); 
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    width: 450px;
+    height: 640px;
+    margin-top: 5px;
+    margin-right: 40px;
+    backdrop-filter: blur(10px);
+}
+
+/* Styles for textarea */
+.input-group textarea {
+    width: 100%;
+    padding: 12px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #ffffff;
+    transition: 0.3s;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.input-group textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.input-group textarea:focus {
+    border-color: #ffffff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+.signup-link,
+.signup-link a {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-block: 20px;
+}
+
+.signup-link a {
+    color: #d87d31;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+/* Social icons styles */
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+    color: #555;
+}
+
+.social-icons a:hover {
+    transform: translateY(-5px) scale(1.1);
+    color: white;
+}
+
+.social-icons a:nth-child(1):hover { background-color: #3b5998; } /* Facebook */
+.social-icons a:nth-child(2):hover { background-color: #00acee; } /* Twitter */
+.social-icons a:nth-child(3):hover { background-color: #e1306c; } /* Instagram */
+.social-icons a:nth-child(4):hover { background-color: #ff0000; } /* YouTube */
+.social-icons a:nth-child(5):hover { background-color: #25d366; } /* WhatsApp */
+
+.social-icons i {
+    font-size: 20px;
+}
+
+/* Footer styles */
+.footer {
+    width: 100%;
+    background-color: rgba(27, 26, 26, 0.5); 
+    backdrop-filter: blur(7px);
+    padding: 15px 0;
+    margin-top: auto; 
+}
+
+.footer .copyright {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.footer .copyright a {
+    text-decoration: none;
+    color: white;
+    font-style: oblique;
+    font-weight: bold;
+    transition: 0.3s all ease;
+}
+
+.footer .copyright a:hover {
+    color: #d87d31;
+}

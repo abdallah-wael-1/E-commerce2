@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sections</title>  
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./shop.css">   
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header" id="header">
+            <div class="container">
+                <a href="#" class="logo"><img src="../Home/logo.jpg" alt="CS Logo" /></a>
+                <div class="search-box">
+                    <i class="fas fa-search" id="searchIcon"></i>
+                    <input list="sections" name="section" id="search" placeholder="Search...">
+                    <datalist id="sections">
+                    <option value="Men's Section">
+                    <option value="Women's Section">
+                    <option value="Kids' Section">
+                    </datalist>
+                </div>
+                <ul class="main-nav">
+                    <li><a href="../Home/home.html"><i class="fa-solid fa-house"></i>Home</a></li>
+                    <li><a href="#"><i class="fas fa-shopping-bag"></i>Sections</a></li>
+                    <li class="cart-link"><a href="../Cart/cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>Cart<span id="cart-count">0</span></a></li>
+                    <li><a href="../About Us/about.html"><i class="fas fa-users"></i>About Us</a></li>
+                    <li><a href="../Contact/contact.html"><i class="fa-solid fa-phone"></i></i>Contact Us</a></li>
+                    <li><button id="theme-toggle"><i class="fa-solid fa-moon"></i> <span class="theme-indicator"></span>Toggle Theme</button></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+
+    <section class="products">
+        <!-- Men’s Section -->
+        <h1 class="main-title" id="Men's Section">Men</h1>
+        <div class="products-grid" id="products-grid">
+            <!-- T-Shirts -->
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Men.01.png" alt="Mint T-Shirt" >
+                </div>
+                <div class="content">
+                    <h2 class="title">MINT T-SHIRT</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Regular Fit</li>
+                        <li>Sizes: S, M, L, XL</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                    <button class="add-to-cart" data-product-id="men-01">
+                        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+                    </button>
+                </div>
+            </div>
+
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Men.02.png" alt="Grey T-Shirt" >
+                </div>
+                <div class="content">
+                    <h2 class="title">GREY T-SHIRT</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Regular Fit</li>
+                        <li>Sizes: S, M, L, XL</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                        <button class="add-to-cart" data-product-id="men-02">
+                        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+                        </button>
+                </div>
+            </div>
+
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Men.03.png" alt="Pink T-Shirt" >
+                </div>
+                <div class="content">
+                    <h2 class="title">PINK T-SHIRT</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Regular Fit</li>
+                        <li>Sizes: S, M, L, XL</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                        <button class="add-to-cart" data-product-id="men-03">
+        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+    </button>
+                </div>
+            </div>
+
+            <!-- Pants -->
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Men.04.png" alt="Grey Pants" >
+                </div>
+                <div class="content">
+                    <h2 class="title">GREY PANTS</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Soft Touch</li>
+                        <li>Sizes: S, M, L, XL</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                        <button class="add-to-cart" data-product-id="men-04">
+        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+    </button>
+                </div>
+            </div>
+
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Men.05.png" alt="Brown Pants" >
+                </div>
+                <div class="content">
+                    <h2 class="title">BROWN PANTS</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Soft Touch</li>
+                        <li>Sizes: S, M, L, XL</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                        <button class="add-to-cart" data-product-id="men-05">
+        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+    </button>
+                </div>
+            </div>
+
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Men.06.png" alt="Cargo Pants" >
+                </div>
+                <div class="content">
+                    <h2 class="title">CARGO PANTS</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Soft Touch</li>
+                        <li>Sizes: S, M, L, XL</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                        <button class="add-to-cart" data-product-id="men-06">
+        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+    </button>
+                </div>
+            </div>
+
+            <!-- Shoes -->
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Men.07.png" alt="Blue Track Shoes" >
+                </div>
+                <div class="content">
+                    <h2 class="title">BLUE TRACK</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Comfort Fit</li>
+                        <li>Sizes: 40 - 45</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                        <button class="add-to-cart" data-product-id="men-07">
+        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+    </button>
+                </div>
+            </div>
+
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Men.08.png" alt="Blue Vans" >
+                </div>
+                <div class="content">
+                    <h2 class="title">BLUE VANS</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Comfort Fit</li>
+                        <li>Sizes: 40 - 45</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                        <button class="add-to-cart" data-product-id="men-08">
+        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+    </button>
+                </div>
+            </div>
+
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Men.09.png" alt="Addistar Shoes" >
+                </div>
+                <div class="content">
+                    <h2 class="title">ADDISTAR</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Comfort Fit</li>
+                        <li>Sizes: 40 - 45</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                        <button class="add-to-cart" data-product-id="men-09">
+        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Women’s Section -->
+        <h1 class="main-title" id="Women's Section">Women</h1>
+        <div class="products-grid">
+            <!-- Tops -->
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Women.01.png" alt="Black Top" >
+                </div>
+                <div class="content">
+                    <h2 class="title">BLACK TOP</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Regular Fit</li>
+                        <li>Sizes: S, M, L, XL</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                        <button class="add-to-cart" data-product-id="women-01">
+        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+    </button>
+                </div>
+            </div>
+
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Women.02.png" alt="Pink Top" >
+                </div>
+                <div class="content">
+                    <h2 class="title">PINK TOP</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Regular Fit</li>
+                        <li>Sizes: S, M, L, XL</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                        <button class="add-to-cart" data-product-id="women-02">
+        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+    </button>
+                </div>
+            </div>
+
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Women.03.png" alt="Mint Top" >
+                </div>
+                <div class="content">
+                    <h2 class="title">MINT TOP</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Regular Fit</li>
+                        <li>Sizes: S, M, L, XL</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                        <button class="add-to-cart" data-product-id="women-03">
+        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+    </button>
+                </div>
+            </div>
+
+            <!-- Pants -->
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Women.04.png" alt="Dark Jeans" >
+                </div>
+                <div class="content">
+                    <h2 class="title">DARK JEANS</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Soft Touch</li>
+                        <li>Sizes: S, M, L, XL</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                        <button class="add-to-cart" data-product-id="women-04">
+        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+    </button>
+                </div>
+            </div>
+
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Women.05.png" alt="Light Jeans" >
+                </div>
+                <div class="content">
+                    <h2 class="title">LIGHT JEANS</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Soft Touch</li>
+                        <li>Sizes: S, M, L, XL</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                        <button class="add-to-cart" data-product-id="women-05">
+        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+    </button>
+                </div>
+            </div>
+
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Women.06.png" alt="Black Pants" >
+                </div>
+                <div class="content">
+                    <h2 class="title">BLACK PANTS</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Soft Touch</li>
+                        <li>Sizes: S, M, L, XL</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                        <button class="add-to-cart" data-product-id="women-06">
+        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+    </button>
+                </div>
+            </div>
+
+            <!-- Shoes -->
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Women.07.png" alt="Black Track Shoes" >
+                </div>
+                <div class="content">
+                    <h2 class="title">BLACK TRACK</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Comfort Fit</li>
+                        <li>Sizes: 40 - 45</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                        <button class="add-to-cart" data-product-id="women-07">
+        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+    </button>
+                </div>
+            </div>
+
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Women.08.png" alt="White Track Shoes" >
+                </div>
+                <div class="content">
+                    <h2 class="title">WHITE TRACK</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Comfort Fit</li>
+                        <li>Sizes: 40 - 45</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                        <button class="add-to-cart" data-product-id="women-08">
+        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+    </button>
+                </div>
+            </div>
+
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Women.09.png" alt="Addistar Shoes" >
+                </div>
+                <div class="content">
+                    <h2 class="title">ADDISTAR</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Comfort Fit</li>
+                        <li>Sizes: 40 - 45</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                        <button class="add-to-cart" data-product-id="women-09">
+        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kids’ Section -->
+        <h1 class="main-title" id="Kids' Section">Kids</h1>
+        <div class="products-grid">
+            <!-- T-Shirts -->
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Kids.01.png" alt="PURPLE T-SHIRT" >
+                </div>
+                <div class="content">
+                    <h2 class="title">PURPLE T-SHIRT</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Regular Fit</li>
+                        <li>Sizes: S, M, L, XL</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                        <button class="add-to-cart" data-product-id="kids-01">
+        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+    </button>
+                </div>
+            </div>
+
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Kids.02.png" alt="MINT T-SHIRT" >
+                </div>
+                <div class="content">
+                    <h2 class="title">MINT T-SHIRT</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Regular Fit</li>
+                        <li>Sizes: S, M, L, XL</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                        <button class="add-to-cart" data-product-id="kids-02">
+        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+    </button>
+                </div>
+            </div>
+
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Kids.03.png" alt="Brown T-Shirt" >
+                </div>
+                <div class="content">
+                    <h2 class="title">Brown T-SHIRT</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Regular Fit</li>
+                        <li>Sizes: S, M, L, XL</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                        <button class="add-to-cart" data-product-id="kids-03">
+        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+    </button>
+                </div>
+            </div>
+
+            <!-- Pants -->
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Kids.04.png" alt="GREY Pants" >
+                </div>
+                <div class="content">
+                    <h2 class="title">GREY PANTS</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Soft Touch</li>
+                        <li>Sizes: S, M, L, XL</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                        <button class="add-to-cart" data-product-id="kids-04">
+        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+    </button>
+                </div>
+            </div>
+
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Kids.05.png" alt="Black Pants">
+                </div>
+                <div class="content">
+                    <h2 class="title">BLACK PANTS</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Soft Touch</li>
+                        <li>Sizes: S, M, L, XL</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                        <button class="add-to-cart" data-product-id="kids-05">
+        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+    </button>
+                </div>
+            </div>
+
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Kids.06.png" alt="D.blue Pants">
+                </div>
+                <div class="content">
+                    <h2 class="title">D.BLUE PANTS</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Soft Touch</li>
+                        <li>Sizes: S, M, L, XL</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                        <button class="add-to-cart" data-product-id="kids-06">
+        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+    </button>
+                </div>
+            </div>
+
+            <!-- Shoes -->
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Kids.07.png" alt="Black Track Shoes" >
+                </div>
+                <div class="content">
+                    <h2 class="title">PURPLE VANS</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Comfort Fit</li>
+                        <li>Sizes: 32 - 39</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                        <button class="add-to-cart" data-product-id="kids-07">
+        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+    </button>
+                </div>
+            </div>
+
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Kids.08.png" alt="Purple Vans" >
+                </div>
+                <div class="content">
+                    <h2 class="title">BLACK TRACK</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Comfort Fit</li>
+                        <li>Sizes: 32 - 39</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                        <button class="add-to-cart" data-product-id="kids-08">
+        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+    </button>
+                </div>
+            </div>
+
+            <div class="card-border">
+                <div class="card-mask">
+                    <img src="../Shop/imgs/Kids.09.png" alt="Addistar Shoes">
+                </div>
+                <div class="content">
+                    <h2 class="title">ADDISTAR</h2>
+                    <ul class="description">
+                        <li>Premium Quality</li>
+                        <li>Comfort Fit</li>
+                        <li>Sizes: 32 - 39</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="price-cart">
+                    <span class="price">$12.00</span>
+                        <button class="add-to-cart" data-product-id="kids-09">
+        <i class="fa-solid fa-cart-shopping"></i> Add to cart
+    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p class="copyright">© 2025 <a href="#">CS Fashion Shop</a> All Right Reserved</p>
+    <script src="shop.js"></script>
+    <script src="../Cart/cart.js"></script>
+</body>
+</html>

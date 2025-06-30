@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="../Home/home.css">
+    <link rel="stylesheet" href="../Shop/shop.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="../footer/footer.css">  
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Cart</title>
+</head>
+<body>
+        <!-- Header -->
+        <header>
+            <div class="header" id="header">
+                <div class="container">
+                    <a href="#" class="logo"><img src="../Home/logo.jpg" alt="CS Logo" /></a>
+                    <ul class="main-nav">
+                        <li><a href="../Home/home.html"><i class="fa-solid fa-house"></i>Home</a></li>
+                        <li><a href="../Shop/shop.html"><i class="fas fa-shopping-bag"></i>Sections</a></li>
+                        <li class="cart-link"><a href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>Cart<span id="cart-count">0</span></a></li>
+                        <li><a href="../About Us/about.html"><i class="fas fa-users"></i>About Us</a></li>
+                        <li><a href="../Contact/contact.html"><i class="fa-solid fa-phone"></i></i>Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    <!-- Main container for the cart page -->   
+    <main class="cart">
+        <section class="cart">
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items">
+                    <!-- Products will be added here using JS -->
+                </tbody>
+            </table>
+        </section>
+        <!-- Button to clear all items in the cart -->
+        <button class="clear">
+            <i class="fa-solid fa-trash-can icon"></i>
+            Clear Cart
+        </button>
+        <section class="summary">
+            <h1>Cart Summary</h1>
+            <!-- Subtotal section -->
+            <div class="sub">
+                <p class="subtotal">Subtotal</p>
+                <p>$0.00</p>
+            </div>
+            <button class="chekout">
+                <i class="fa-solid fa-credit-card"></i> CHECKOUT
+            </button>
+        </section>
+    </main>
+
+        <!-- Footer -->
+    <section class="footer">
+        <p class="copyright">© 2025 <a href="#">CS Fashion Shop</a> All Right Reserved</p>
+    </section>
+    <script src="cart.js"></script>
+    <script src="../Shop/shop.js"></script>
+</body>
+</html>     

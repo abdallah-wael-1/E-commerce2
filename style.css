@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url("./background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+}
+
+.form-container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  width: 350px;
+  margin-left: 120px;
+  backdrop-filter: blur(10px);
+}
+
+.form-container h1 {
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+/* Input Styles */
+.input-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.input-group label {
+  display: block;
+  text-align: left;
+  color: #ffffff;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 40px 12px 12px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #ffffff;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+
+.input-group input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.input-group input:focus {
+  border-color: #ffffff;
+  outline: none;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+  transform: scale(1.02);
+}
+
+/* Hide the default reveal icon for password fields in browsers */
+.input-group input[type="password"]::-ms-reveal,
+.input-group input[type="password"]::-ms-clear,
+.input-group input[type="password"]::-webkit-textfield-decoration-container {
+  display: none;
+}
+
+.options input[type="checkbox"] {
+  accent-color: #f28c38;
+}
+
+.input-group .icon {
+  position: absolute;
+  right: 18px;
+  top: 70%;
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+}
+
+.input-group .eye-icon {
+  position: absolute;
+  right: 18px;
+  top: 70%;
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Options Styles */
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.options label {
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+.options .forgot-password,
+.signup-link a {
+  color: #f28c38;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.options .forgot-password:hover,
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+/* Button Styles */
+.form-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #d87d31;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: rgba(92, 64, 51, 0.8);
+  transform: scale(1.05); /* تكبير الزر عند المرور عليه */
+}
+
+/* Sign Up Link */
+.signup-link {
+  margin-top: 1rem;
+  color: #ffffff;
+  font-size: 0.9rem;
+}
