@@ -37,7 +37,7 @@ loginForm?.addEventListener("submit", function (e) {
     localStorage.setItem("username", username); // Store the username in localStorage
 
     alert(`✔️ Welcome, username! Your login was successful.`);
-    window.location.href = "../Home/index.html";
+    window.location.href = "../Home/home.html";
   } else {
     alert("❌ Invalid username or password");
   }
